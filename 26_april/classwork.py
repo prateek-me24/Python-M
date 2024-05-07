@@ -6,15 +6,15 @@
 
 
 
-# data = "hey prateek hey hello hey user user hey"
+data = "hey prateek hey hello hey user user hey"
 
-# li = data.split(" ")
-# newLi = []
-# for i in li:
-#     if(i not in newLi):
-#         newLi.append(i)
+li = data.split(" ")
+newLi = []
+for i in li:
+    if(i not in newLi):
+        newLi.append(i)
 
-# print(newLi)
+print(newLi)
 
 
 
@@ -27,37 +27,37 @@
 # we declared this in parentheses ()
 # tuple m parentheses compulsary nhi hote h , saperated values ko like a tuple hi read krte h 
 
-# mytuple = 10
-# print(type(mytuple))
+mytuple = 10
+print(type(mytuple))
 
-# mytuple = 10,   # tuple m single value store krwani ho to value k baad , lgana hota h
-# print(type(mytuple))
+mytuple = 10,   # tuple m single value store krwani ho to value k baad , lgana hota h
+print(type(mytuple))
 
-# mytuple = 10,20
-# print(type(mytuple))
+mytuple = 10,20
+print(type(mytuple))
 
 
-# mytuple = (10,20,'hello', 10.2)
-# print(mytuple[0:3])
+mytuple = (10,20,'hello', 10.2)
+print(mytuple[0:3])
 
-# print(mytuple.index('hello'))
+print(mytuple.index('hello'))
 
-# print(id(mytuple))
+print(id(mytuple))
 
-# mytuple = mytuple+(60,70,80)
-# print(id(mytuple))
+mytuple = mytuple+(60,70,80)
+print(id(mytuple))
 
 
 
 ##########   Please check
 
-# value = "hey prateek hey hello hello prateek prateek"
+value = "hey prateek hey hello hello prateek prateek"
 
-# myList = value.split()
-# tuple(myList)
-# print('hey in ',myList.count('hey'), ' time in value')
-# print('hello in ',myList.count('hello'), ' time in value')
-# print('prateek in ',myList.count('prateek'), ' time in value')
+myList = value.split()
+tuple(myList)
+print('hey in ',myList.count('hey'), ' time in value')
+print('hello in ',myList.count('hello'), ' time in value')
+print('prateek in ',myList.count('prateek'), ' time in value')
 
 
 
