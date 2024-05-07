@@ -1,3 +1,24 @@
+###################      LCM
+
+
+
+def lcm(a, b):
+    max_num = max(a, b)
+    while True:
+        if max_num % a == 0 and max_num % b == 0:
+            return max_num
+        max_num += 1
+
+
+num1 = 12
+num2 = 18
+print("LCM of", num1, "and", num2, "is:", lcm(num1, num2))
+
+
+
+
+
+
 #################     prime number function
 
 
